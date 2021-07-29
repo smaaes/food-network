@@ -3,16 +3,17 @@ h1{
     font-size: 35px;
   
 }
-section{
+section {
     display: flex;
-    margin: 26px;
+    padding: 26px;
 }
 .first-section {
     width: 50%;
+    padding-top: 100px;
 }
 .first-section img {
-width:100% ;
-background-image: url(images/2.png);
+width:50% ;
+padding-bottom: 50px;
 }
 .different{
     color: darkorange;
@@ -24,8 +25,8 @@ background-image: url(images/2.png);
     padding: 15px 30px;
     font-weight: 700;
     color:white;
-
 }
-.first-image-section{
-    background-image: url(images/3.png);
+.second-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
 }
