@@ -1,9 +1,8 @@
-h1{
+.diet-heading {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
-  
 }
-section {
+.flexible-container {
     display: flex;
     padding: 26px;
 }
@@ -26,7 +25,43 @@ padding-bottom: 50px;
     font-weight: 700;
     color:white;
 }
+                                 /* about us section single code */
+
 .second-section{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+}
+                                   /* my reciepes section single code */
+.third-section h1{
+    text-align: center;
+
+}
+.third-section h3{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.box-design{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box-design > div{
+    max-width: 100%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 5px grey;
+    font-family: 'Poppins', sans-serif;
+
+}
+.box-design img{
+    max-height: 200px;
+}
+.footer-area{
+    background-color: black;
+    color:gray;
+    text-align: center;
+    height: 250px;
+    padding-bottom: 40px;
 }
